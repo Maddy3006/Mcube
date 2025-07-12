@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReWear - Product Listing</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-blue-900 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">ReWear</h1>
+    <div class="flex gap-2 items-center">
+      <input type="text" placeholder="Search" class="p-1 px-2 text-black rounded" />
+      <button><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1 0 5.5 5.5a7.5 7.5 0 0 0 11.15 11.15z"/></svg></button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-gray-200 p-4 my-4 rounded-xl flex items-center justify-center">
+    <img src="banner.png" alt="ReWear Banner" class="rounded-xl" />
+  </section>
+
+  <!-- Category Section -->
+  <section class="text-center my-6">
+    <h2 class="text-2xl font-extrabold">CATEGORY</h2>
+    <div class="flex justify-center flex-wrap gap-6 mt-4 bg-blue-800 p-4 rounded-xl text-white">
+      <div class="text-center">
+        <img src="men.jpg" class="h-32 rounded" alt="Men" />
+        <p class="mt-2 font-bold">MEN</p>
+      </div>
+      <div class="text-center">
+        <img src="women.png" class="h-32 rounded" alt="Women" />
+        <p class="mt-2 font-bold">WOMEN</p>
+      </div>
+      <div class="text-center">
+        <img src="boys.png" class="h-32 rounded" alt="Boys" />
+        <p class="mt-2 font-bold">BOYS</p>
+      </div>
+      <div class="text-center">
+        <img src="girls.png" class="h-32 rounded" alt="Girls" />
+        <p class="mt-2 font-bold">GIRLS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product List -->
+  <section class="text-center my-6">
+    <h2 class="text-2xl font-extrabold">PRODUCT LIST</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4 px-4">
+      <!-- Product Card -->
+      <div class="bg-blue-900 text-white p-3 rounded-xl">
+        <img src="product1.jpg" class="h-48 mx-auto rounded" />
+        <p class="mt-2 text-sm">Green Tartan Check Shirt Fit Cotton Casual 2023</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View Product</button>
+      </div>
+      <div class="bg-blue-900 text-white p-3 rounded-xl">
+        <img src="product2.jpg" class="h-48 mx-auto rounded" />
+        <p class="mt-2 text-sm">Boys Peanut Snoopy Printed T-shirt</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View Product</button>
+      </div>
+      <div class="bg-blue-900 text-white p-3 rounded-xl">
+        <img src="product3.jpg" class="h-48 mx-auto rounded" />
+        <p class="mt-2 text-sm">Girls long sleeve denim jacket</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View Product</button>
+      </div>
+      <div class="bg-blue-900 text-white p-3 rounded-xl">
+        <img src="product4.jpg" class="h-48 mx-auto rounded" />
+        <p class="mt-2 text-sm">Women Embroidered Palazzo</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View Product</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
